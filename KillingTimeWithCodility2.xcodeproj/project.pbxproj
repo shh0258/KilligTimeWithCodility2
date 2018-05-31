@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		CEC1F2E020BF82B4005012D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2DF20BF82B4005012D7 /* main.cpp */; };
+		CEC1F2FC20BF8526005012D7 /* TapeEquilibrium.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2E620BF8524005012D7 /* TapeEquilibrium.cpp */; };
+		CEC1F2FD20BF8526005012D7 /* BinaryCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2E820BF8525005012D7 /* BinaryCount.cpp */; };
+		CEC1F2FE20BF8526005012D7 /* MaxCounters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2EB20BF8525005012D7 /* MaxCounters.cpp */; };
+		CEC1F2FF20BF8526005012D7 /* PermMissingElem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2ED20BF8525005012D7 /* PermMissingElem.cpp */; };
+		CEC1F30020BF8526005012D7 /* FrogRiverOne.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2EF20BF8525005012D7 /* FrogRiverOne.cpp */; };
+		CEC1F30120BF8526005012D7 /* MissingInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2F020BF8525005012D7 /* MissingInteger.cpp */; };
+		CEC1F30220BF8526005012D7 /* PermCheck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2F320BF8525005012D7 /* PermCheck.cpp */; };
+		CEC1F30320BF8526005012D7 /* OddOccurrencesInArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2F420BF8525005012D7 /* OddOccurrencesInArray.cpp */; };
+		CEC1F30420BF8526005012D7 /* FrogJmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2F520BF8525005012D7 /* FrogJmp.cpp */; };
+		CEC1F30520BF8526005012D7 /* MinAvgTwoSlice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2F720BF8526005012D7 /* MinAvgTwoSlice.cpp */; };
+		CEC1F30620BF8526005012D7 /* CyclieRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2FB20BF8526005012D7 /* CyclieRotation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +36,28 @@
 /* Begin PBXFileReference section */
 		CEC1F2DC20BF82B4005012D7 /* KillingTimeWithCodility2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KillingTimeWithCodility2; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC1F2DF20BF82B4005012D7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CEC1F2E620BF8524005012D7 /* TapeEquilibrium.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TapeEquilibrium.cpp; sourceTree = "<group>"; };
+		CEC1F2E720BF8525005012D7 /* TapeEquilibrium.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TapeEquilibrium.hpp; sourceTree = "<group>"; };
+		CEC1F2E820BF8525005012D7 /* BinaryCount.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryCount.cpp; sourceTree = "<group>"; };
+		CEC1F2E920BF8525005012D7 /* MinAvgTwoSlice.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MinAvgTwoSlice.hpp; sourceTree = "<group>"; };
+		CEC1F2EA20BF8525005012D7 /* FrogJmp.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FrogJmp.hpp; sourceTree = "<group>"; };
+		CEC1F2EB20BF8525005012D7 /* MaxCounters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MaxCounters.cpp; sourceTree = "<group>"; };
+		CEC1F2EC20BF8525005012D7 /* PermCheck.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PermCheck.hpp; sourceTree = "<group>"; };
+		CEC1F2ED20BF8525005012D7 /* PermMissingElem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PermMissingElem.cpp; sourceTree = "<group>"; };
+		CEC1F2EE20BF8525005012D7 /* CyclieRotation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CyclieRotation.hpp; sourceTree = "<group>"; };
+		CEC1F2EF20BF8525005012D7 /* FrogRiverOne.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FrogRiverOne.cpp; sourceTree = "<group>"; };
+		CEC1F2F020BF8525005012D7 /* MissingInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MissingInteger.cpp; sourceTree = "<group>"; };
+		CEC1F2F120BF8525005012D7 /* OddOccurrencesInArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OddOccurrencesInArray.hpp; sourceTree = "<group>"; };
+		CEC1F2F220BF8525005012D7 /* BinaryCount.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinaryCount.hpp; sourceTree = "<group>"; };
+		CEC1F2F320BF8525005012D7 /* PermCheck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PermCheck.cpp; sourceTree = "<group>"; };
+		CEC1F2F420BF8525005012D7 /* OddOccurrencesInArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OddOccurrencesInArray.cpp; sourceTree = "<group>"; };
+		CEC1F2F520BF8525005012D7 /* FrogJmp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FrogJmp.cpp; sourceTree = "<group>"; };
+		CEC1F2F620BF8526005012D7 /* MaxCounters.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MaxCounters.hpp; sourceTree = "<group>"; };
+		CEC1F2F720BF8526005012D7 /* MinAvgTwoSlice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MinAvgTwoSlice.cpp; sourceTree = "<group>"; };
+		CEC1F2F820BF8526005012D7 /* MissingInteger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MissingInteger.hpp; sourceTree = "<group>"; };
+		CEC1F2F920BF8526005012D7 /* FrogRiverOne.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FrogRiverOne.hpp; sourceTree = "<group>"; };
+		CEC1F2FA20BF8526005012D7 /* PermMissingElem.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PermMissingElem.hpp; sourceTree = "<group>"; };
+		CEC1F2FB20BF8526005012D7 /* CyclieRotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CyclieRotation.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +90,28 @@
 		CEC1F2DE20BF82B4005012D7 /* KillingTimeWithCodility2 */ = {
 			isa = PBXGroup;
 			children = (
+				CEC1F2E820BF8525005012D7 /* BinaryCount.cpp */,
+				CEC1F2F220BF8525005012D7 /* BinaryCount.hpp */,
+				CEC1F2FB20BF8526005012D7 /* CyclieRotation.cpp */,
+				CEC1F2EE20BF8525005012D7 /* CyclieRotation.hpp */,
+				CEC1F2F520BF8525005012D7 /* FrogJmp.cpp */,
+				CEC1F2EA20BF8525005012D7 /* FrogJmp.hpp */,
+				CEC1F2EF20BF8525005012D7 /* FrogRiverOne.cpp */,
+				CEC1F2F920BF8526005012D7 /* FrogRiverOne.hpp */,
+				CEC1F2EB20BF8525005012D7 /* MaxCounters.cpp */,
+				CEC1F2F620BF8526005012D7 /* MaxCounters.hpp */,
+				CEC1F2F720BF8526005012D7 /* MinAvgTwoSlice.cpp */,
+				CEC1F2E920BF8525005012D7 /* MinAvgTwoSlice.hpp */,
+				CEC1F2F020BF8525005012D7 /* MissingInteger.cpp */,
+				CEC1F2F820BF8526005012D7 /* MissingInteger.hpp */,
+				CEC1F2F420BF8525005012D7 /* OddOccurrencesInArray.cpp */,
+				CEC1F2F120BF8525005012D7 /* OddOccurrencesInArray.hpp */,
+				CEC1F2F320BF8525005012D7 /* PermCheck.cpp */,
+				CEC1F2EC20BF8525005012D7 /* PermCheck.hpp */,
+				CEC1F2ED20BF8525005012D7 /* PermMissingElem.cpp */,
+				CEC1F2FA20BF8526005012D7 /* PermMissingElem.hpp */,
+				CEC1F2E620BF8524005012D7 /* TapeEquilibrium.cpp */,
+				CEC1F2E720BF8525005012D7 /* TapeEquilibrium.hpp */,
 				CEC1F2DF20BF82B4005012D7 /* main.cpp */,
 			);
 			path = KillingTimeWithCodility2;
@@ -118,7 +173,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEC1F30620BF8526005012D7 /* CyclieRotation.cpp in Sources */,
+				CEC1F30220BF8526005012D7 /* PermCheck.cpp in Sources */,
+				CEC1F2FF20BF8526005012D7 /* PermMissingElem.cpp in Sources */,
+				CEC1F2FC20BF8526005012D7 /* TapeEquilibrium.cpp in Sources */,
+				CEC1F30320BF8526005012D7 /* OddOccurrencesInArray.cpp in Sources */,
+				CEC1F2FE20BF8526005012D7 /* MaxCounters.cpp in Sources */,
+				CEC1F30420BF8526005012D7 /* FrogJmp.cpp in Sources */,
+				CEC1F30020BF8526005012D7 /* FrogRiverOne.cpp in Sources */,
+				CEC1F2FD20BF8526005012D7 /* BinaryCount.cpp in Sources */,
+				CEC1F30120BF8526005012D7 /* MissingInteger.cpp in Sources */,
 				CEC1F2E020BF82B4005012D7 /* main.cpp in Sources */,
+				CEC1F30520BF8526005012D7 /* MinAvgTwoSlice.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
