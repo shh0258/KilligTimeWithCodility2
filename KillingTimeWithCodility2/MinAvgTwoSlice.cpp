@@ -38,49 +38,74 @@
 //    return temp/(end-start+1);
 //}
 
-int solution6(vector<int> &A) { // not finished yet
-    double total=0, result=0, p_result=0, t_result=0;
-    int start=0;
-    int end=1;
-    
-    total=(double)(A[start]+A[end]);
-    result=modTotal(total, start, end);
-    t_result=result;
-    cout<<"total:"<<total<<endl<<"result:"<<result<<endl;
-    
-    while(1){
-        if(end>=(A.size()-1)) {
-            break;
-        }
-        end++;
-        total+=A[end];
-        p_result=modTotal(total, start, end);
-        cout<<"1 loop:::::: end: "<<end<<"  start : "<<start<<" total: "<<total<<"  p_result: "<<p_result<<endl;
-        if(t_result>=p_result) {
-            while(1){
-                if(end-start<2) {
-                    break;
-                }
-                result=p_result;
-                total-=(double)A[start];
-                start++;
-                p_result=modTotal(total, start, end);
-                cout<<"2 loop22222: end: "<<end<<"  start : "<<start<<" total: "<<total<<"  p_result: "<<p_result<<endl;
-                if(result<p_result) {
-                    break;
-                } else {
-                    result=p_result;
-                }
-            }
-        }
-        t_result=p_result;
-    }
-     cout<<"final result: end: "<<end<<"  start : "<<start<<" total: "<<total<<"  p_result: "<<p_result<<endl;
-    return start;
-}
+//int solution6(vector<int> &A) { // not finished yet
+//    double total=0, result=0, p_result=0, t_result=0;
+//    int start=0;
+//    int end=1;
+//
+//    total=(double)(A[start]+A[end]);
+//    result=modTotal(total, start, end);
+//    t_result=result;
+//    cout<<"0 end: "<<end<<"  start : "<<start<<" total: "<<total<<"  p_result: "<<p_result<<" result: "<<result<<endl;
+//
+//    while(1){
+//        if(end>=(A.size()-1)) {
+//            break;
+//        }
+//        end++;
+//        total+=A[end];
+//        p_result=modTotal(total, start, end);
+//        cout<<"1 loop:::::: end: "<<end<<"  start : "<<start<<" total: "<<total<<"  p_result: "<<p_result<<" result: "<<result<<endl;
+//        if(t_result>=p_result) {
+//            while(1){
+//                if(end-start<2) {
+//                    break;
+//                }
+//                if(result>=p_result) {
+//                    result=p_result;
+//                }
+//                total-=(double)A[start];
+//                start++;
+//                p_result=modTotal(total, start, end);
+//                cout<<"2 loop22222: end: "<<end<<"  start : "<<start<<" total: "<<total<<"  p_result: "<<p_result<<" result: "<<result<<endl;
+//                if(result<p_result) {
+//                    total+=(double)A[start];
+//                    start--;
+//                    break;
+//                } else {
+//                    result=p_result;
+//                }
+//            }
+//        }
+//        t_result=p_result;
+//    }
+//    cout<<"final result: end: "<<end<<"  start : "<<start<<" total: "<<total<<"  p_result: "<<p_result<<" result: "<<result<<endl;
+//    return start;
+//}
+//
+//double modTotal(double total, int start, int end) {
+//    return total/(end-start+1);
+//}
 
-double modTotal(double total, int start, int end) {
-    return total/(end-start+1);
+int solution6(vector<int> &A) {
+    double result=1.79769e+308;
+    int start=0;
+    
+    for(int i=0; i<A.size()-1; i++) {
+        if(result>((double)A[i]+A[i+1])/2) {
+            result=((double)A[i]+A[i+1])/2;
+            start=i;
+            cout<<"1 "<<result<<endl;
+        }
+    }
+    for(int i=0; i<A.size()-2; i++) {
+        if(result>((double)A[i]+A[i+1]+A[i+2])/3) {
+            result=((double)A[i]+A[i+1]+A[i+2])/3;
+            start=i;
+            cout<<"2 "<<result<<endl;
+        }
+    }
+    return start;
 }
 
 
