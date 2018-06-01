@@ -7,9 +7,18 @@
 //
 
 #include <iostream>
+#include "MinAvgTwoSlice.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    std::cout << "Hello, World!\n";
+    vector<int> A;
+    A.push_back(4);
+    A.push_back(2);
+    A.push_back(2);
+    A.push_back(5);
+    A.push_back(1);
+    A.push_back(5);
+    A.push_back(8);
+    cout<<solution6(A)<<endl;
     return 0;
 }
