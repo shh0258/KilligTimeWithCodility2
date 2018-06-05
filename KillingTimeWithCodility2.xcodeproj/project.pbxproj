@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE80839D20C1403D00DDE52D /* PassingCars.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE80839B20C1403D00DDE52D /* PassingCars.cpp */; };
 		CEC1F2E020BF82B4005012D7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2DF20BF82B4005012D7 /* main.cpp */; };
 		CEC1F2FC20BF8526005012D7 /* TapeEquilibrium.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2E620BF8524005012D7 /* TapeEquilibrium.cpp */; };
 		CEC1F2FD20BF8526005012D7 /* BinaryCount.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CEC1F2E820BF8525005012D7 /* BinaryCount.cpp */; };
@@ -34,6 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CE80839B20C1403D00DDE52D /* PassingCars.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = PassingCars.cpp; sourceTree = "<group>"; };
+		CE80839C20C1403D00DDE52D /* PassingCars.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = PassingCars.hpp; sourceTree = "<group>"; };
 		CEC1F2DC20BF82B4005012D7 /* KillingTimeWithCodility2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KillingTimeWithCodility2; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEC1F2DF20BF82B4005012D7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		CEC1F2E620BF8524005012D7 /* TapeEquilibrium.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TapeEquilibrium.cpp; sourceTree = "<group>"; };
@@ -113,6 +116,8 @@
 				CEC1F2E620BF8524005012D7 /* TapeEquilibrium.cpp */,
 				CEC1F2E720BF8525005012D7 /* TapeEquilibrium.hpp */,
 				CEC1F2DF20BF82B4005012D7 /* main.cpp */,
+				CE80839B20C1403D00DDE52D /* PassingCars.cpp */,
+				CE80839C20C1403D00DDE52D /* PassingCars.hpp */,
 			);
 			path = KillingTimeWithCodility2;
 			sourceTree = "<group>";
@@ -181,6 +186,7 @@
 				CEC1F2FE20BF8526005012D7 /* MaxCounters.cpp in Sources */,
 				CEC1F30420BF8526005012D7 /* FrogJmp.cpp in Sources */,
 				CEC1F30020BF8526005012D7 /* FrogRiverOne.cpp in Sources */,
+				CE80839D20C1403D00DDE52D /* PassingCars.cpp in Sources */,
 				CEC1F2FD20BF8526005012D7 /* BinaryCount.cpp in Sources */,
 				CEC1F30120BF8526005012D7 /* MissingInteger.cpp in Sources */,
 				CEC1F2E020BF82B4005012D7 /* main.cpp in Sources */,

@@ -7,16 +7,17 @@
 //
 
 #include <iostream>
-#include "MinAvgTwoSlice.hpp"
+//#include "MinAvgTwoSlice.hpp"
+#include "PassingCars.hpp"
 
 int main(int argc, const char * argv[]) {
     // insert code here...
     vector<int> A;
-    A.push_back(-3);
-    A.push_back(-5);
-    A.push_back(-8);
-    A.push_back(-4);
-    A.push_back(-10);
-    cout<<solution6(A)<<endl;
+    A.push_back(0);
+    A.push_back(1);
+    A.push_back(0);
+    A.push_back(1);
+    A.push_back(1);
+    cout<<solution7(A)<<endl;
     return 0;
 }
